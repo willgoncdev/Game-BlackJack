@@ -1,0 +1,57 @@
+.container-1,
+.container-5,
+.footer {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3,
+.footer {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url(https://images.unsplash.com/photo-1629197520635-16570fbd0bb3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z3JlZW4lMjB0ZXh0dXJlfGVufDB8fDB8fA%3D%3D&w=1000&q=80)
+    center;
+  color: #ffff;
+}
+
+.flex-blackjack-row-1 div {
+  border: 1.5px solid black;
+  padding: 10px;
+  flex: 1;
+  height: 350px;
+  text-align: center;
+}
+
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+.flex-blackjack-row-2 button {
+  border: 1px solid black;
+  padding: 10px;
+  flex: 1;
+}
+
+.flex-blackjack-row-2 div {
+  border: 1px solid black;
+  padding: 10px;
+}
+
+table,
+td,
+th {
+  padding: 5px;
+  border: 1px solid black;
+}
