@@ -87,3 +87,22 @@ th {
   color: #c9a227;
   font-size: large;
 }
+
+
+
+@media (max-width: 1200px) {
+  body {
+    margin: 0px;
+    padding: 0;
+  }
+
+.container-1,
+.container-5,
+.footer {
+  background-color: #38160d;
+  border-radius: 15px;
+  border: 3px solid #ffd300;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
